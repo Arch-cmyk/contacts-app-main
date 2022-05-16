@@ -4,8 +4,8 @@ import { USER_NAME, PASSWORD } from "../config";
 const username = encodeURIComponent(USER_NAME);
 const password = encodeURIComponent(PASSWORD);
 const dataBaseName = "contacts-app";
-const MONGODB_URI = `mongodb+srv://${username}:${password}@cluster0.9hw4g.mongodb.net/${dataBaseName}?retryWrites=true&w=majority`;
 
+const MONGODB_URI = `mongodb+srv://${username}:${password}@cluster0.ig67n.mongodb.net/${dataBaseName}?retryWrites=true&w=majority`;
 console.log(MONGODB_URI);
 
 if (!MONGODB_URI) {
